@@ -1,0 +1,22 @@
+.signup__form--container,
+.login__form--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background-color: black;
+}
+
+.login__image--container {
+  background-image: url(https://lifestyleweblogs.com/wp-content/uploads/2023/06/thespark-shop-kids-clothes-for-baby-boy-girl.jpg);
+  height: 87vh;
+  background-size: cover;
+}
+
+@media screen and (max-width: 756px) {
+  .login__image--container,
+  .signup__image--container {
+    display: none;
+  }
+}
